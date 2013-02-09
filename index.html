@@ -1,0 +1,62 @@
+
+<html>
+<head>
+<title>Machine Learning Laboratory</title>
+</head>
+<body>
+
+<h1>Machine Learning Laboratory</h1>
+
+<h2>Incremental Decision Tree Induction</h2>
+
+<p>ITI (Incremental Tree Inducer) is a program that constructs <a
+href="dtree-background.html">decision trees</a> automatically from
+labeled examples.  Although the program is called ITI, it includes
+both the ITI and DMTI (Direct Metric Tree Induction> algorithms.  
+One runs the ITI program, but with certain command options invokes the 
+DMTI algorithm within.
+</p>
+
+<p>
+The most useful aspect of the ITI algorithm is that is provides a
+mechanism for incremental tree induction.  If one has already
+constructed a tree, and then obtains a new labeled example, it is
+possible to present it the algorithm, and have the algorithm revise
+the tree as necessary.  The alternative would be to build a new tree
+from scratch, based on the now augmented set of labeled examples,
+which is typically much more expensive.  ITI handles symbolic and
+numeric variables, and missing data values.  It includes a virtual
+pruning mechanism too.
+</p>
+
+<p>
+ITI is implemented in ANSI C, and it has been actively maintained
+since 1994.  Version 3.10 (23 March 2001) is current.  The code
+distribution includes several other programs, including a tree drawing
+program PST that generates PostScript code.  An <a
+href="ftp://ftp.cs.umass.edu/pub/iti/iti.ps">article</a> about ITI and
+DMTI appears in October 1997 Machine Learning journal.
+</p>
+
+<p> The <a href="license.html">source code</a> is protected by
+copyright, but is available for individual research purposes.  If you
+wish to use this code in any other way, you must sign a licensing
+agreement covering your intended activity.  This is quite easy to do -
+send me email for more info.  </p>
+
+<p>
+The documentation now lives on these Web pages, and is therefore no
+longer included in the distribution.  It is quite easy to <a
+href="iti-how-to-install.html">install</a> the code.  There is a <a
+href="iti-change-log.html">log of changes</a> from each version to the
+next, directions for <a href="iti-how-to-run.html">running ITI and
+DMTI</a>, and similar directions for <a
+href="pst-how-to-run.html">running PST</a>.
+</p>
+
+<hr><address>
+Last Updated: March 23, 2001 <br>
+&#169; Copyright 2001, All Rights Reserved, Paul Utgoff, University of Massachusetts
+</address>
+</body>
+</html>
