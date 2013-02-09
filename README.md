@@ -3,7 +3,7 @@ ITI
 
 ITI - Incremental Tree Inducer (unofficial mirror from http://people.cs.umass.edu/~lrn/iti/index.html)
 
-This is a mirror of the ITI Incremental Tree Inducer, created by Paul Utgoff at UMass Amherst.  My sole intention for uploading this to github is so that it remains available to the machine learning community.
+This is a mirror of the ITI Incremental Tree Inducer, created by Paul Utgoff at UMass Amherst.  My sole intention for uploading this to github is so that it remains available to the machine learning community, as the Machine Learning Laboratory is no longer operating.
 
 The code is copyrighted by UMass Amherst, but is available for research use.  Below I've included a copy of the original entry page for the website.
 
